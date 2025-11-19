@@ -67,3 +67,8 @@ This sprint tests your ability to:
 Make something fun, weird, cool, or chaotic.  
 Surprise us. Break the rules of normal.  
 Just **make a mini game that works**.
+
+## Included Games
+
+- `reaction-timer/` — Simple Reaction Timer: click when the screen turns green. Open `reaction-timer/index.html` in your browser to play. See `reaction-timer/README.md` for details.
+

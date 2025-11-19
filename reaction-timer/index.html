@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Reaction Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Reaction Timer</h1>
+    <p class="lead">Wait for the screen to turn green, then click as fast as you can.</p>
+
+    <div id="box" class="box waiting">Click to start</div>
+
+    <div class="stats">
+      <div>Last: <span id="last">—</span> ms</div>
+      <div>Best: <span id="best">—</span> ms</div>
+    </div>
+
+    <div class="controls">
+      <button id="reset">Reset Best</button>
+      <a id="source" href="../README.md">Back to repo README</a>
+    </div>
+
+    <p class="hint">Tip: if you click too early it's a fault.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
